@@ -20,6 +20,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Villatech | Software a Medida & Agentes de IA para PyMEs",
   description: "Estudio de desarrollo de software especializado en aplicaciones web, soluciones en la nube e inteligencia artificial para pequeñas y medianas empresas.",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/villatech_logo_transparent.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/villatech_logo_transparent.svg",
+    apple: "/villatech_logo_transparent.svg",
+  },
 };
 
 export default function RootLayout({
